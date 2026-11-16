@@ -344,3 +344,8 @@ export const CmuxNotifyPlugin = async ({ $, client }) => {
     },
   }
 }
+
+export default {
+  id: "opencode-cmux-notify",
+  setup: CmuxNotifyPlugin,
+};
